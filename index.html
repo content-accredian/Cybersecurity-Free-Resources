@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Free Resources | Accredian</title>
+    <meta name="description" content="Access premium Cybersecurity roadmaps, technical cheatsheets, and expert PPTs. Curated by Accredian for aspiring security professionals.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --accredian-blue: #0046ad;
+            --accredian-dark: #1a202c;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .bg-accredian { background-color: var(--accredian-blue); }
+        .text-accredian { color: var(--accredian-blue); }
+        .btn-primary {
+            background-color: var(--accredian-blue);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #003585;
+            transform: translateY(-1px);
+        }
+        .resource-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+        .gradient-overlay {
+            background: linear-gradient(135deg, rgba(0,70,173,0.95) 0%, rgba(15, 23, 42, 0.9) 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="https://www.accredian.com" target="_blank">
+                        <span class="text-2xl font-bold text-accredian tracking-tight">accredian<span class="text-gray-400 font-light">.com</span></span>
+                    </a>
+                </div>
+                <div class="flex space-x-8">
+                    <a href="https://www.accredian.com" target="_blank" class="text-gray-600 hover:text-accredian font-medium">Programs</a>
+                    <a href="#about" class="text-gray-600 hover:text-accredian font-medium">About Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative text-white overflow-hidden">
+        <div class="absolute inset-0 gradient-overlay"></div>
+        <div class="relative max-w-7xl mx-auto px-4 py-24 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">Master Cybersecurity with <br><span class="text-blue-200">Free Expert Resources</span></h1>
+            <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-10">
+                The ultimate open-source repository for aspiring Security Professionals. Access industry-grade roadmaps, technical cheatsheets, and expert PPTs.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://github.com/content-accredian/Cybersecurity-Free-Resources/tree/main" target="_blank" class="bg-white text-accredian px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition shadow-lg">Browse GitHub Repo</a>
+                <a href="https://www.accredian.com" target="_blank" class="bg-transparent border-2 border-white/50 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition">Professional Certification →</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <div class="bg-white shadow-sm border-b py-8">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-3xl font-bold text-accredian">100+</p>
+                <p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Technical PPTs</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-accredian">50k+</p>
+                <p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Global Learners</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-accredian">15+</p>
+                <p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Expert Roadmaps</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-accredian">24/7</p>
+                <p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Open Source Access</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="resources" class="max-w-7xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Resource Categories</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">High-quality assets designed to take you from a security enthusiast to an industry-ready professional.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Roadmaps -->
+            <div class="resource-card bg-white p-10 rounded-3xl border border-gray-100 shadow-sm text-center">
+                <div class="w-16 h-16 bg-blue-100 text-accredian rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                    <i class="fas fa-map-signs fa-2x"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Cyber Roadmaps</h3>
+                <p class="text-gray-500 leading-relaxed">Structured learning paths for SOC Analysis, Ethical Hacking, Network Defense, and Cloud Security.</p>
+            </div>
+
+            <!-- Cheatsheets -->
+            <div class="resource-card bg-white p-10 rounded-3xl border border-gray-100 shadow-sm text-center">
+                <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                    <i class="fas fa-terminal fa-2x"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Technical Cheatsheets</h3>
+                <p class="text-gray-500 leading-relaxed">Condensed references for Linux commands, Nmap flags, Wireshark filters, and Metasploit basics.</p>
+            </div>
+
+            <!-- PPTs -->
+            <div class="resource-card bg-white p-10 rounded-3xl border border-gray-100 shadow-sm text-center">
+                <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                    <i class="fas fa-file-powerpoint fa-2x"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Expert PPTs</h3>
+                <p class="text-gray-500 leading-relaxed">Deep-dive presentation decks on advanced topics like Malware Analysis, Encryption, and GRC.</p>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <section id="about" class="mt-32 py-20 border-t border-gray-100 bg-white rounded-3xl shadow-sm overflow-hidden relative">
+            <div class="absolute top-0 left-0 w-full h-1 bg-accredian"></div>
+            <div class="max-w-4xl mx-auto text-center px-4">
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-50 text-accredian rounded-full mb-6">
+                    <i class="fas fa-shield-alt fa-2x"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">About Accredian</h2>
+                <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
+                    <p>
+                        Accredian is a premier education platform dedicated to upskilling professionals in high-growth tech domains. We believe that quality education should be accessible, which is why we maintain this open-source repository for the global Cybersecurity community.
+                    </p>
+                    <p>
+                        Beyond free resources, our Executive Programs provide hands-on mentorship from industry leaders, ensuring you don't just learn concepts but master the technical skills required by top-tier global firms. We are committed to powering the next generation of Digital Defenders through a research-driven curriculum and career-focused training.
+                    </p>
+                </div>
+                <div class="mt-12 flex flex-col sm:flex-row justify-center items-center gap-6">
+                    <a href="https://www.accredian.com/about" target="_blank" class="text-accredian font-bold border-b-2 border-accredian pb-1 hover:text-blue-800 transition">Our Full Story</a>
+                    <span class="hidden sm:block text-gray-300">|</span>
+                    <p class="text-accredian font-semibold">Transforming Professionals into Security Leaders</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Banner -->
+        <section class="mt-20 bg-gray-900 rounded-3xl p-8 md:p-12 overflow-hidden relative border border-white/10">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-accredian/20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+            <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="text-center md:text-left">
+                    <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Protect Your Future Today</h3>
+                    <p class="text-gray-400 max-w-md">Join Accredian's world-class programs in Cybersecurity. Get mentored by experts and unlock career opportunities at top global firms.</p>
+                </div>
+                <div class="flex-shrink-0">
+                    <a href="https://www.accredian.com" target="_blank" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition shadow-xl">
+                        View Certificate Programs
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="https://www.accredian.com" class="text-2xl font-bold text-accredian mb-6 block">accredian</a>
+                    <p class="text-gray-500 max-w-sm">
+                        Accredian is India's leading research-driven educational institution for professionals in Data Science, AI, and Cybersecurity.
+                    </p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="https://linkedin.com/company/accredian" class="text-gray-400 hover:text-accredian"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="https://twitter.com/accredian" class="text-gray-400 hover:text-accredian"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://youtube.com/accredian" class="text-gray-400 hover:text-accredian"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><a href="https://www.accredian.com/programs" class="hover:text-accredian">All Programs</a></li>
+                        <li><a href="https://www.accredian.com/blog" class="hover:text-accredian">Blog</a></li>
+                        <li><a href="https://www.accredian.com/success-stories" class="hover:text-accredian">Success Stories</a></li>
+                        <li><a href="https://www.accredian.com/career-services" class="hover:text-accredian">Career Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><a href="https://www.accredian.com/faq" class="hover:text-accredian">FAQ</a></li>
+                        <li><a href="https://www.accredian.com/privacy" class="hover:text-accredian">Privacy Policy</a></li>
+                        <li><a href="https://www.accredian.com/terms" class="hover:text-accredian">Terms of Service</a></li>
+                        <li><a href="mailto:admissions@accredian.com" class="hover:text-accredian">Contact Admissions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2024 accredian. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
